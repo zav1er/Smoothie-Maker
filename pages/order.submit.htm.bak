@@ -88,7 +88,7 @@
 	
 	<footer>
 	
-		<a href="about.us.htm"><img src="../icons/smoothie.png" class="icon">
+		<a href="about.us.htm"><img src="../icons/smoothie.png" class="icon" alt="smoothie logo">
 			
 		<div class="foot-nav">
 			<a href="#" class="nav-link">Home</a>
