@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="../fruitstyle.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+	<title> Order Form </title>
+	
+	<style>
+		body {
+			background-image: url('../images/bground.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			background-size: cover;
+			color: white;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+	<!-- header -->
+	<header>
+	
+	<img src="../icons/smoothie.png" style="vertical-align:middle; display:inline;" width="90" alt="smoothie logo">
+		
+		<div class="title">
+			Smoothie Maker
+		</div>
+	
+	<br>
+		
+	<a href="../index.htm" class="button">Home</a>
+	<a href="get.started.htm" class="button">Products</a>
+	<a href="about.us.htm" class="button">About Us</a>
+	<a href="questions.htm" class="button">Questions</a>
+	
+	</header>
+
+	<br>
+	
+	<!-- Content Here -->
+	
+	<div class="container">
+	
+		<h1>Order Form</h1>
+		
+		<br>
+		<hr>
+		<h2> &lt; &#45; &#45; &#45; Details &#45; &#45; &#45; &gt; </h2>
+		<hr>
+		<br>
+		
+		<form action="order.submit.htm">
+			
+			<div class="form">
+
+				<p class="row">
+					<label for="fname"> First Name: </label>
+					<input type="text" id="fname" placeholder="Enter First Name" name="fname" maxlength="40">
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<label for="lname"> Last Name: </label>
+					<input type="text" id="lname" placeholder="Enter Last Name" name="lname" maxlength="40">
+				</p>
+				
+				<br>
+					
+				<p class="row">
+					<label for="email"> Email: </label>
+					<input type="email" id="email" placeholder="Enter Email Here" name="email" maxlength="50">
+				</p>
+				
+				<br>
+				
+				<p class="row">		
+					<label for="phone"> Phone Number: </label>
+					<input type="tel" id="phone" placeholder="Enter Phone Number" name="phone" maxlength="10">
+				</p>
+				
+				<br>
+				
+				<p class="row">		
+					<label for="address"> Address: </label>
+					<input type="text" id="address" placeholder="Enter Address Here" name="email" maxlength="70">
+				</p>
+				
+				<br>
+				
+				<p class="row">		
+					<label for="oname"> (Optional) Custom Name: </label>
+					<input type="text" id="oname" placeholder="Custom Drink Name Here" name="oname" maxlength="50">
+				</p>
+			
+			</div>
+			
+			<br>
+			<hr>
+			<h2> &lt; &#45; &#45; &#45; Ingredients &#45; &#45; &#45; &gt; </h2>
+			<hr>
+			<h4> &lt;&#45;&#45;&#45; Fruits &#45;&#45;&#45;&gt; </h4>
+			
+			<div class="form">
+			
+				<p class="row">
+					<input type="checkbox" id="red-apple" name="red-apple" value="red-apple">
+					<label for="red-apple" class="red"> Red Apple </label>
+			
+					<input type="checkbox" id="cherry" name="cherry" value="cherry">
+					<label for="cherry" class="red"> Cherry </label>
+					
+					<input type="checkbox" id="cranberry" name="cranberry" value="cranberry">
+					<label for="cranberry" class="red"> Cranberry </label>
+					
+					<input type="checkbox" id="raspberry" name="raspberry" value="raspberry">
+					<label for="raspberry" class="red"> Raspberry </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="strawberry" name="strawberry" value="strawberry">
+					<label for="strawberry" class="red"> Strawberry </label>
+					
+					<input type="checkbox" id="watermelon" name="watermelon" value="watermelon">
+					<label for="watermelon" class="red"> Watermelon </label>
+					
+					<input type="checkbox" id="apricot" name="apricot" value="apricot">
+					<label for="apricot" class="orange"> Apricot </label>
+					
+					<input type="checkbox" id="mandarin" name="mandarin" value="mandarin">
+					<label for="mandarin" class="orange"> Mandarin </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="orange" name="orange" value="orange">
+					<label for="orange" class="orange"> Orange </label>
+					
+					<input type="checkbox" id="pawpaw" name="pawpaw" value="pawpaw">
+					<label for="pawpaw" class="orange"> Paw Paw </label>
+					
+					<input type="checkbox" id="peach" name="peach" value="peach">
+					<label for="peach" class="orange"> Peach </label>
+					
+					<input type="checkbox" id="lemon" name="lemon" value="lemon">
+					<label for="lemon" class="yellow"> Lemon </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="mango" name="mango" value="mango">
+					<label for="mango" class="yellow"> Mango </label>
+					
+					<input type="checkbox" id="melon" name="melon" value="melon">
+					<label for="melon" class="yellow"> Melon </label>
+					
+					<input type="checkbox" id="passion" name="passion" value="passion">
+					<label for="passion" class="yellow"> Passion </label>
+					
+					<input type="checkbox" id="pineapple" name="pineapple" value="pineapple">
+					<label for="pineapple" class="yellow"> Pineapple </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="green-apple" name="green-apple" value="green-apple">
+					<label for="green-apple" class="green"> Green Apple </label>
+					
+					<input type="checkbox" id="avocado" name="avocado" value="avocado">
+					<label for="avocado" class="green"> Avocado </label>
+					
+					<input type="checkbox" id="kiwi" name="kiwi" value="kiwi">
+					<label for="kiwi" class="green"> Kiwifruit </label>
+					
+					<input type="checkbox" id="lime" name="lime" value="lime">
+					<label for="lime" class="green"> Lime </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="pear" name="pear" value="pear">
+					<label for="pear" class="green"> Pear </label>
+					
+					<input type="checkbox" id="blueberry" name="blueberry" value="blueberry">
+					<label for="blueberry" class="blue"> Blueberry </label>
+					
+					<input type="checkbox" id="grape" name="grape" value="grape">
+					<label for="grape" class="purple"> Grape </label>
+					
+					<input type="checkbox" id="plum" name="plum" value="plum">
+					<label for="plum" class="purple"> Plum </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="fig" name="fig" value="fig">
+					<label for="fig" class="purple"> Fig </label>
+					
+					<input type="checkbox" id="grapefruit" name="grapefruit" value="grapefruit">
+					<label for="grapefruit" class="pink"> Grapefruit </label>
+					
+					<input type="checkbox" id="guava" name="guava" value="guava">
+					<label for="guava" class="pink"> Guava </label>
+					
+					<input type="checkbox" id="lychee" name="lychee" value="lychee">
+					<label for="lychee" class="pink"> Lychee </label>
+				</p>
+				
+			</div>
+			
+			
+			<h4> &lt;&#45;&#45;&#45; Mixers &#45;&#45;&#45;&gt; </h4>
+			
+			
+			<div class="form">
+				
+				<p class="row">
+					<input type="radio" id="water" name="mixer" value="water">
+					<label for="water"> Water </label>
+					
+					<input type="radio" id="milk" name="mixer" value="milk">
+					<label for="milk"> Milk </label>
+					
+					<input type="radio" id="LF.milk" name="mixer" value="LF.milk">
+					<label for="LF.milk"> LF Milk </label>
+					
+					<input type="radio" id="rice.milk" name="mixer" value="rice.milk">
+					<label for="rice.milk"> Rice Milk </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="radio" id="oat.milk" name="mixer" value="oat.milk">
+					<label for="oat.milk"> Oat Milk </label>
+					
+					<input type="radio" id="coconut.milk" name="mixer" value="coconut.milk">
+					<label for="coconut.milk"> Coconut Milk </label>
+					
+					<input type="radio" id="soy.milk" name="mixer" value="soy.milk">
+					<label for="soy.milk"> Soy Milk </label>
+					
+					<input type="radio" id="hazelnut.milk" name="mixer" value="hazelnut.milk">
+					<label for="hazelnut.milk"> Hazelnut Milk </label>
+				</p>
+				
+			</div>
+			
+			<h4> &lt;&#45;&#45;&#45; Extras &#45;&#45;&#45;&gt; </h4>
+			
+			<div class="form">
+				
+				<p class="row">
+					<input type="checkbox" id="ice" name="ice" value="ice">
+					<label for="ice"> Ice <br> +10c </label>
+					
+					<input type="checkbox" id="icecream!" name="icecream!" value="icecream!">
+					<label for="icecream!"> Icecream <br> +40c </label>
+					
+					<input type="checkbox" id="honey" name="honey" value="honey">
+					<label for="honey"> Honey <br> +20c </label>
+					
+					<input type="checkbox" id="yoghurt!" name="yoghurt!" value="yoghurt!">
+					<label for="yoghurt!"> Yoghurt <br> +40c </label>
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<input type="checkbox" id="LF.yoghurt" name="LF.yoghurt" value="LF.yoghurt">
+					<label for="LF.yoghurt"> LF Yoghurt <br> +40c </label>
+					
+					<input type="checkbox" id="oats" name="oats" value="oats">
+					<label for="oats"> Oats <br> +20c </label>
+					
+					<input type="checkbox" id="cream!" name="cream!" value="cream!">
+					<label for="cream!"> Cream <br> +20c </label>
+					
+					<input type="checkbox" id="maple.syrup" name="maple.syrup" value="maple.syrup">
+					<label for="maple.syrup"> Maple Syrup <br> +20c </label>
+				</p>
+				
+			</div>
+			
+			<h4> &lt;&#45;&#45;&#45; Size &#45;&#45;&#45;&gt; </h4>
+			
+			<div class="form">
+				
+				<p class="row">
+					<input type="radio" id="tester" name="size" value="tester">
+					<label for="tester"> Tester <br> (200ml) <br> $4 </label>
+					
+					<input type="radio" id="small" name="size" value="small">
+					<label for="small"> Small <br> (400ml) <br> $6 </label>
+					
+					<input type="radio" id="medium" name="size" value="medium">
+					<label for="medium"> Medium <br> (600ml) <br> $8 </label>
+					
+					<input type="radio" id="large" name="size" value="large">
+					<label for="large"> Large <br> (800ml) <br> $10 </label>
+				</p>
+				
+			</div>
+			
+			<br>
+			
+			<h4> &lt;&#45;&#45;&#45; Optional &#45;&#45;&#45;&gt; </h4>
+			
+			<p>Add any specifics, special steps or requirements below so we can try our best to get 100% satisfaction</p>
+			
+			<br>
+			<br>
+			
+			<textarea id="information" placeholder="Don't be shy" name="information" cols="90" rows="10" maxlength="1000" style="text-align: left; font-size: 20px; font-family: 'Shadows Into Light Two', cursive; box-sizing: border-box; display: block; margin-left: auto; margin-right: auto; border-radius: 10px; padding-left: 10px; padding-right: 10px; @media (prefers-color-scheme: dark) {border: 2px solid black; border-radius: 10px; padding-left: 10px; padding-right: 10px; color: white; background-color: grey;} 
+			
+			@media (prefers-color-scheme: light) {border: 2px solid white; color: black;"></textarea>
+			
+			<br>
+			
+			<a href="order.submit.htm" class="orange-button">SUBMIT</a>
+			
+		</form>
+	
+	</div>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<footer>
+	
+		<a href="about.us.htm"><img src="../icons/smoothie.png" class="icon" alt="smoothie logo"></a>
+			
+		<div class="foot-nav">
+			<a href="../index.htm" class="nav-link">Home</a>
+			<a href="get.started.htm" class="nav-link">Products</a>
+			<a href="questions.htm" class="nav-link">Questions</a>
+			<a href="disclaimer.htm" class="nav-link"> Disclaimer</a>
+		</div>
+		
+	<p class="rights"> &copy; 2022 Parker Designs</p>
+		
+	</footer>
+	
+</body>
+</html>

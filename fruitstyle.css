@@ -1,0 +1,509 @@
+body {
+	text-align: center;
+}
+
+background-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	padding-top: 20px;
+	width: 100%;
+}
+
+.title {
+	font-size: 80px;
+	vertical-align: middle; 
+	display: inline;
+	padding-left: 40px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.button {
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	padding: 20px;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+}
+
+.button-active {
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+}
+
+.container {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h1 {
+	font-family: 'Righteous', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Righteous', cursive;
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 25px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+h4 {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 35px;
+}
+
+p {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 25px;
+}
+
+ul {
+	list-style-type:none;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 25px;
+}
+
+.item {
+	border-radius: 10px;
+	display: inline-block;
+	justify-content: center;
+	width: 20%;
+	text-align: center;
+	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	
+.item-image {
+	width: 80px;
+	padding: 20px;
+}
+
+form {
+	font-family: 'Righteous', cursive;
+	border-collapse: collapse;
+}
+
+.form {
+	display: table;
+	width: 100%;
+	font-family: 'Righteous', cursive;
+	border-collapse: collapse;
+}
+
+input {
+	text-align: left;
+	font-size: 30px;
+	font-family: 'Shadows Into Light Two', cursive;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: table-cell;
+	margin: 20px;
+}
+
+label {
+	display: table-cell;
+	text-align: left;
+	margin: 20px;
+	font-family: 'Righteous', cursive;
+	font-size: 35px;
+}
+
+::placeholder {
+	opacity: 1;
+}
+
+.row {
+	display: table-row;
+}
+
+checkbox input,checkbox label {
+	display:inline-block;
+	vertical-align:middle;
+}
+	
+.checkbox label{
+	margin-right:20px;
+}
+
+.orange-button {
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	padding: 20px;
+	border-radius: 10px;
+	transition-duration: 0.2s;
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+
+footer {
+	font-family: 'Righteous', cursive;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 100%;
+}
+
+.icon { 
+	display: inline;
+	width: 80px;
+	vertical-align: middle;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+.icon:hover {
+	opacity: 0.8;
+}
+
+.foot-nav {
+	display: inline-block;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-size: 25px;
+	display: inline;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+.nav-link:hover {
+	  text-decoration: none;
+}
+
+.rights {
+	font-size: 20px;
+	padding-top: 20px;
+	font-family: 'Righteous', cursive;
+}
+
+@media (prefers-color-scheme: dark) {
+	
+	body {
+		background-color: black;
+	}
+	
+	header {
+		background-color: #00506C;
+	}
+	
+	.title {
+		color: white;
+	}
+	
+	.button {
+		background-color: #70044C;
+		color: #FB89D5;
+	}
+
+	.button:hover {
+		background-color: #F729B2;
+		color: white;
+	}
+
+	.button-active {
+		background-color: #0DFF2A;
+		color: white;
+	}
+	
+	h1 {
+		color: #0DFF2A;
+	}
+	
+	h2 {
+		color: #FFDB01;
+	}
+	
+	h3 {
+		color: #7DDDFF;
+	}
+	
+	h4 {
+		color: #F729B2;
+	}
+
+	p {
+		color: #7DDDFF;
+	}
+	
+	hr {
+		border-bottom: 5px solid white;
+	}
+	
+	ul {
+		color: #7DDDFF;
+	}
+	
+	.link {
+		color: #F729B2;
+	}
+
+	footer {
+		background-color: #00506C;
+	}
+
+	.nav-link {
+		color: #FFDB01;
+	}
+
+	.nav-link:hover {
+		color: #FFEC7D;
+	}
+	
+	.rights {
+		color: #FFDB01;
+	}
+	
+	.item {
+		background-color: black;
+	}
+	
+	input {
+		border: 2px solid black;
+		color: white;
+		background-color: grey;
+	}
+	
+	::placeholder {
+		color: black;
+	}
+	
+	.row {
+		border-bottom: 3px solid white;
+	}
+	
+	.red {
+		color: #FF6178;
+	}
+	
+	.orange {
+		color: #FFA065;
+	}
+	
+	.yellow {
+		color: #F7EC81;
+	}
+	
+	.green {
+		color: #74EC99;
+	}
+	
+	.blue {
+		color: #7EDDEA;
+	}
+	
+	.purple {
+		color: #CC81FF;
+	}
+	
+	.pink {
+		color: #FEA8DB;
+	}
+	
+	.orange-button {
+		background-color: #863300;
+		color: #FFA065;
+	}
+	
+	.orange-button:hover {
+		background-color: #FF6201;
+		color: white;
+	}
+
+}
+
+@media (prefers-color-scheme: light) {
+	
+	body {
+		background-color: white;
+	}
+	
+	header {
+		background-color: #7DDDFF;
+	}
+	
+	.title {
+	color: black;
+	}
+	
+	.button {
+	background-color: #FB89D5;
+	color: #70044C;
+	}
+
+	.button:hover {
+	background-color: #F729B2;
+	color: black;
+	}
+
+	.button-active {
+	background-color: #0DFF2A;
+	color: black;
+	}
+	
+	h1 {
+	color: #006C0D;
+	}
+	
+	h2 {
+		color: #00B0EE;
+	}
+	
+	h3 {
+		color: #00506C;
+	}
+	
+	h4 {
+		color: #F729B2;
+	}
+
+	p {
+		color: #0E4D56;
+	}
+	
+	hr {
+		border-bottom: 5px solid black;
+	}
+	
+	ul {
+		color: #00506C;
+	}
+	
+	.link {
+		color: #F729B2;
+	}
+
+	footer {
+		background-color: #7DDDFF;
+	}
+	
+	.nav-link {
+		color: #5C4F00;
+	}
+
+	.nav-link:hover {
+	  color: #FFDB01;
+	}
+
+	.rights {
+		color: #FFDB01;
+	}
+	
+	.item {
+		background-color: white;
+	}
+	
+	input {
+		border: 2px solid white;
+		color: black;
+		background-color: grey;
+	}
+	
+	::placeholder {
+		color: black;
+	}
+	
+	.row {
+		border-bottom: 3px solid black;
+	}
+	
+	.red {
+		color: #700010;
+	}
+	
+	.orange {
+		color: #863300;
+	}
+	
+	.yellow {
+		color: #6F6507;
+	}
+	
+	.green {
+		color: #0C5824;
+	}
+	
+	.blue {
+		color: #0E4D56;
+	}
+	
+	.purple {
+		color: #390060;
+	}
+	
+	.pink {
+		color: #880252;
+	}
+	
+	.orange-button {
+		background-color: #863300;
+		color: #FF6201;
+	}
+	
+	.orange-button:hover {
+		background-color: #FF6201;
+		color: black;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
