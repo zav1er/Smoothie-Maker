@@ -36,7 +36,7 @@
 	<!-- header -->
 	<header>
 	
-	<img src="../icons/smoothie.png" style="vertical-align:middle; display:inline;" width="90px">
+	<img src="../icons/smoothie.png" style="vertical-align:middle; display:inline;" width="90px" alt="smoothie logo">
 		
 		<div class="title">
 			Smoothie Maker
