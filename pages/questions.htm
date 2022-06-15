@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" href="../fruitstyle.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+	<title>Questions</title>
+	
+	<style>
+		body {
+			background-image: url('../images/bground.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			background-size: cover;
+			color: white;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+	<!-- header -->
+	<header>
+	
+	<img src="../icons/smoothie.png" alt="smoothie logo" style="vertical-align:middle; display:inline;" width="90">
+		
+		<div class="title">
+			Smoothie Maker
+		</div>
+	
+	<br>
+		
+	<a href="../index.htm" class="button" role="button">Home</a>
+	<a href="get.started.htm" class="button" role="button">Products</a>
+	<a href="about.us.htm" class="button" role="button">About Us</a>
+	<a href="#" class="button-active" role="button" style="color: white; pointer-events: none;">Questions</a>
+	
+	</header>
+
+	<br>
+	
+	<!-- Content Here -->
+	
+	<div class="container" role="main">
+	
+		<h1>Have a Question?</h1>
+		
+		<p>The form below is to fill out if you have a question or suggestion. Remember to check the <a href="about.us.htm" class="link">about us</a> page to see if the question is answered there!</p>
+		
+		<br>
+		
+		<form action="question.submit.htm">
+			
+			<div class="form">
+
+				<p class="row">
+					<label for="fname"> First Name: </label>
+					<input type="text" id="fname" placeholder="Enter First Name" name="fname" maxlength="40">
+				</p>
+				
+				<br>
+				
+				<p class="row">
+					<label for="lname"> Last Name: </label>
+					<input type="text" id="lname" placeholder="Enter Last Name" name="lname" maxlength="40">
+				</p>
+				
+				<br>
+					
+				<p class="row">
+					<label for="email"> Email: </label>
+					<input type="email" id="email" placeholder="Enter Email Here" name="email" maxlength="50">
+				</p>
+				
+				<br>
+				
+				<p class="row">		
+					<label for="phone"> Phone Number: </label>
+					<input type="tel" id="phone" placeholder="Enter Phone Number" name="phone" maxlength="10">
+				</p>
+				
+			</div>
+				
+			<br>
+			
+			<p>Let us know your suggestion and/or question below! Please keep your language respectful and try to use proper spelling and grammar. Please be descriptive and if needed, feel free to add references.</p>
+			
+			<br>
+			
+			<div class="form">
+				
+				<p class="row">
+					<input type="radio" id="question" name="question" value="question">
+					<label for="question"> Question </label>
+					
+					<input type="radio" id="suggestion" name="question" value="suggestion">
+					<label for="suggestion"> Suggestion </label>
+					
+					<input type="radio" id="both" name="question" value="both">
+					<label for="both"> Both </label>
+				</p>
+			</div>
+			
+			<br>
+			<br>
+				
+			<textarea id="information" placeholder="Don't be shy" name="information" cols="90" rows="10" maxlength="1000" style="text-align: left; font-size: 20px; font-family: 'Shadows Into Light Two', cursive; box-sizing: border-box; display: block; margin-left: auto; margin-right: auto; border-radius: 10px; padding-left: 10px; padding-right: 10px; border-radius: 10px; padding-left: 10px; padding-right: 10px;
+			
+			@media (prefers-color-scheme: dark) {border: 2px solid black;  color: white; background-color: grey;} 
+			
+			@media (prefers-color-scheme: light) {border: 2px solid white; color: black;"></textarea>
+			
+		</form>
+		
+		<a href="question.submit.htm" class="orange-button" role="button">SUBMIT</a>
+		
+	</div>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<footer>
+	
+		<a href="about.us.htm"><img src="../icons/smoothie.png" class="icon" alt="smoothie logo"></a>
+			
+		<div class="foot-nav">
+			<a href="../index.htm" class="nav-link">Home</a>
+			<a href="get.started.htm" class="nav-link">Products</a>
+			<a href="#" class="nav-link" style="pointer-events: none; text-decoration: underline;">Questions</a>
+			<a href="disclaimer.htm" class="nav-link"> Disclaimer</a>
+		</div>
+		
+	<p class="rights"> &copy; 2022 Parker Designs</p>
+		
+	</footer>
+		
+</body>
+</html>
